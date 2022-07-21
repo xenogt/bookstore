@@ -111,5 +111,7 @@
       }
     }
   },
-  "defaultProject": "bookstore"
+  "cli": {
+    "analytics": false
+  }
 }
