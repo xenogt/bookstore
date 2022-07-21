@@ -4,6 +4,24 @@
     click here
   </a>
   Angular
+
+  <div class="navbar-nav me-auto">
+    <li class="nav-item">
+      <a [routerLink]="['/admin']" routerLinkActive="active" class="nav-link">Admin</a>
+    </li>
+    <li class="nav-item">
+      <a [routerLink]="['/home']" routerLinkActive="active" class="nav-link">Home</a>
+    </li>
+  </div>
+
+  <div class="navbar-nav ms-auto">
+    <li class="nav-item">
+      <a [routerLink]="['/register']" routerLinkActive="active" class="nav-link">Sign Up</a>
+    </li>
+    <li class="nav-item ms-1">
+      <a [routerLink]="['/login']" routerLinkActive="active" class="nav-link">Sign In</a>
+    </li>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
